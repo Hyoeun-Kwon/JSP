@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Tag</title>
+</head>
+<body>
+	
+	<form action="#" method="get">    <!-- #은 먼저 get으로 쓰고 나중에 fort?로 -->
+		이름 : <input type="text" name="username"><br> <!-- textfield, 변수이름 -->
+		아이디 : <input type="text" name="userId"><br>
+		비밀번호 : <input type="password" name="userPassword"><br>
+	
+	</form>
+	
+</body>
+</html>

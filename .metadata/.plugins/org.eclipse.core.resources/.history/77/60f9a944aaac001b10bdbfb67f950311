@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Quiz</title>
+</head>
+<body>
+	<table>
+	<tr>
+		<form action="#" method="get">    <!--web	방식  #은 프로그램 이름이 들어가고, (#이 받는거임, 아래것들이 주는거고) 먼저 get으로 쓰고 나중에 post로 -->
+			이름 : <input type="text" name="username" size ="9"><br> <!-- textfield, 변수이름 -->
+			아이디 : <input type="text" name="userId" size ="12"><br>  <!-- html은 한칸만 띄어쓰기 인정!! 태그가 따로 있 -->
+			비밀번호 : <input type="password" name="userPassword"><br>
+			연락처 : <input type="text" name="phone1" size ="5"> -
+				   <input type="text" name="phone2" size ="5"> -
+				   <input type="text" name="phone3" size ="5"><br>
+			사진 :<input type="file" name ="picture"> <br>
+			성별구분 : <input type="radio" name="gender" value="man" checked="checked"> 남,
+			         <input type="radio" name="gender" value="woman">여 <br>
+			         
+			<!--  그룹의 정의는 변수이름으로 한다 -->
+			사용언어 : <input type="checkbox" name="lang" value="kor" checked="checked"> 한글,
+					<input type="checkbox" name="lang" value="Eng" > 영어,
+					<input type="checkbox" name="lang" value="jpn" > 일본어,
+					<input type="checkbox" name="lang" value="chn" > 중국어 <br>
+					
+			자기소개 : <textarea rows="5" cols="20">간단하게 입력하세요</textarea><br>
+			국적 : <select>
+					<option>Korea</option>
+					<option>USA</option>
+					<option>Japan</option>
+					<option>China</option>
+			
+			</select></br>
+			좋아하는 음식 : <select multiple="multiple">    <!-- combox랑 다르게 list가 되고, 여러개 선택가능 -->
+						<option>김치</option>
+						<option>불고기</option>
+						<option>파전</option>
+						<option>비빔밥</option>
+						<option>냉면</option>
+						<option>순대</option>
+			
+			</select><br>
+					
+			<input type="submit" name ="okBtn" value ="OK">  <!-- web방식 은 submit (버튼)이 필요하다! -->
+			<!-- html은 화면에 그리는것!  -->
+			<input type="reset" name ="resetBtn" value ="Reset"> 
+		
+		</form>
+	
+	
+	
+	</tr>
+	</table>
+
+
+
+</body>
+</html>

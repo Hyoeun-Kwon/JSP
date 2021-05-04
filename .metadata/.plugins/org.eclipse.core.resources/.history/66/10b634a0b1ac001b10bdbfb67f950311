@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Addition</title>
+</head>
+<body>
+
+<!--  java다 -->
+	<%
+		int a = 30;
+		int b = 20;
+		int addition = a + b;
+		int sub= a-b;
+		int mul= a*b;
+		double div= (double)a/b;
+		int remainder = a%b;
+		
+	%>
+	
+	<%=a %> + <%=b %> = <%=addition %> <br>
+	
+	<!-- 혼자해보기 -->
+	<%=a %> - <%=b %> = <%=sub %><br>
+	<%=a %> * <%=b %> = <%=mul %><br>
+	<%=a %> / <%=b %> = <%=div %><br>
+	<%=a %> % <%=b %> = <%=remainder %><br>
+	
+	
+</body>
+</html>

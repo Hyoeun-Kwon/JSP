@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Quiz</title>
+</head>
+<body>
+		<form action="#" method="get">  
+	<table>
+		<tr>
+		<td>이름 : </td>
+		<td><input type="text" name="username" size ="9"></td>
+		</tr>
+		
+		<tr>
+		<td>아이디 : </td>
+		<td><input type="text" name="userId" size ="12"></td>
+		</tr>
+		
+		<tr>
+		<td>비밀번호 : </td>
+		<td><input type="password" name="userPassword"></td>
+		</tr>
+		<td>연락처 : <input type="text" name="phone1" size ="5"> -
+			   <input type="text" name="phone2" size ="5"> -
+			   <input type="text" name="phone3" size ="5"><br></td>
+		<td>사진 :<input type="file" name ="picture"> <br></td>
+		<td>성별구분 : <input type="radio" name="gender" value="man" checked="checked"> 남,
+		         <input type="radio" name="gender" value="woman">여 <br></td>
+		         
+		<!--  그룹의 정의는 변수이름으로 한다 -->
+		<td>사용언어 : <input type="checkbox" name="lang" value="kor" checked="checked"> 한글,
+				<input type="checkbox" name="lang" value="Eng" > 영어,
+				<input type="checkbox" name="lang" value="jpn" > 일본어,
+				<input type="checkbox" name="lang" value="chn" > 중국어 <br></td>
+				
+		<td>자기소개 : <textarea rows="5" cols="20">간단하게 입력하세요</textarea><br></td>
+		<td>국적 : <select>
+				<option>Korea</option>
+				<option>USA</option>
+				<option>Japan</option>
+				<option>China</option>
+		
+		</select></br></td>
+		<td>좋아하는 음식 : <select multiple="multiple">    
+					<option>김치</option>
+					<option>불고기</option>
+					<option>파전</option>
+					<option>비빔밥</option>
+					<option>냉면</option>
+					<option>순대</option>
+		
+		</select><br></td>
+				
+		<td><input type="submit" name ="okBtn" value ="OK"> </td> 
+		
+		<td><input type="reset" name ="resetBtn" value ="Reset"> </td>
+	
+	</form>
+	
+	
+	
+	</tr>
+	</table>
+
+
+
+</body>
+</html>

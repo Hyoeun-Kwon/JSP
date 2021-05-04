@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Tag</title>
+</head>
+<body>
+	<p><img alt="교보문고 로고" src="kyobo.png"></p>
+	
+</body>
+</html>

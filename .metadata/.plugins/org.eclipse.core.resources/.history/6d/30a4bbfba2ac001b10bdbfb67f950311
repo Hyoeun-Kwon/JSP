@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Tag</title>
+</head>
+<body>
+	<p><img alt="교보문고 로고" src="kyobo.png"></p>
+	<p><a href = "http://kyobobook.co.kr"><img alt="교보문고 로고" src="kyobo.png"></a></p>
+	<p><img alt="교보문고 로고" src="kyobo.png" width ="70"></p>
+	<p><img alt="교보문고 로고" src="http://image.kyobobook.co.kr/ink/images/gnb/logo_kyobo.png"></p>
+	<!-- 위: 소스 이미지 주소 복사 --> 
+	
+	<audio src="music.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio>>
+	
+</body>
+</html>
