@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	
+	<%
+	//나이가 20이상이면 Ok
+	
+	String inputAge = request.getParameter("Age");
+	int valAge = Integer.parseInt(inputAge);
+	
+	if(valAge>=20) {
+		out.print("당신의 나이는 " + valAge + "살 이므로 주류 구매가 가능합니다.");
+		out.print("처음으로 이동");
+		response.sendRedirect("https://www.naver.com");
+	}
+		
+	
+
+	
+	%>
+	
+	
+	
+</body>
+</html>

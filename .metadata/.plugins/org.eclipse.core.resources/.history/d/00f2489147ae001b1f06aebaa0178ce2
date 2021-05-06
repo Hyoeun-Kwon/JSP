@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<titl>나이 판단</title>
+</head>
+<body>
+	
+	
+	<%
+
+	int age1, age2;
+	age1= Integer.parseInt(request.getParameter("age"));
+	age2= Integer.parseInt(request.getParameter("age"));
+	
+	if(age1>=20) {
+		response.sendRedirect("responseAge_03.jsp?age=" +age1);
+	}else if(age2<20){
+		response.sendRedirect("responseAge_03.jsp?age=" +age2);
+	}
+	
+	%>
+	
+	
+	
+	
+</body>
+</html>

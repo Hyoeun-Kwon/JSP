@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	
+	<form action="Quiz_requestParameter.jsp" method="get">
+	
+	
+	
+		<select name="cbnumber">
+			<option value="http">http</option>
+			<option value="ftp">ftp</option>
+			<option value="smtp" selected="selected">smtp</option>
+			<option value="pop">pop</option>
+
+		</select>
+	
+	
+	</form>
+
+</body>
+</html>

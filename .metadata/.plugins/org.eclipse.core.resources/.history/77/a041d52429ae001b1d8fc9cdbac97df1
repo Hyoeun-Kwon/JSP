@@ -1,0 +1,25 @@
+<%@page import="java.util.GregorianCalendar"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Date</title>
+</head>
+<body>
+	
+<%
+//import됨 클래스임)
+// 클래스 (C)      인스턴스(I)  =     생성자 (C)
+GregorianCalendar now = new GregorianCalendar();
+
+
+
+%>	
+	
+	
+	
+	
+</body>
+</html>
