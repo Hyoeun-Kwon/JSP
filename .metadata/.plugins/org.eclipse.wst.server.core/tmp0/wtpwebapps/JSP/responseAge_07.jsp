@@ -11,6 +11,7 @@
 	
 	<%
 	String age = request.getParameter("age");
+	//int age2 = Integer.parseInt(request.getParameter("age"));
 	String adult = request.getParameter(URLDecoder.decode("adult"));
 	String possible = request.getParameter(URLDecoder.decode("possible"));
 	%>

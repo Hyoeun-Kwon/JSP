@@ -16,7 +16,7 @@
 		 <input type="text" name="tfnum2" size="10"> <br>
 		
 		
-		<select name="cbnumber1">
+		<select name="cbnum1">
 			
 			<%
 			
@@ -24,23 +24,22 @@
 				out.print("<option value="+i+">"+i+"</option>");
 			}
 			%>
+
+		</select> X
+		
+		<select name="cbnum2">
 			
+			<%
 			
-			
+			for(int i=1; i<=999; i++){
+				out.print("<option value="+i+">"+i+"</option>");
+			}
+			%>
 
 		</select>
 		
-		<select name="cbnumber2">
-			<option value="number2">
-			
-			
-			
-			</option>
-		</select>
 		
-		
-		<input type="submit" value="전송">
-		<input type="reset" value="취소">
+		<input type="submit" value="OK">
 		
 	</form>
 

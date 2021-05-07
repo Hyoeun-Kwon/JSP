@@ -16,15 +16,17 @@
 	
 	int age;
 	age= Integer.parseInt(request.getParameter("age"));
-	String adult, possible;
+	String adult="";
+	String possible="";
+
 	
 	if(age>=20){
-		adult = URLEncoder.encode("성인"); 
-		possible = URLEncoder.encode("가능"); 
+		adult = URLEncoder.encode("성인", "UTF-8"); 
+		possible = URLEncoder.encode("가능","UTF-8"); 
 		
 	}else{
-		adult = URLEncoder.encode("미성년자"); 
-		possible = URLEncoder.encode("불가능"); 
+		adult = URLEncoder.encode("미성년자","UTF-8"); 
+		possible = URLEncoder.encode("불가능","UTF-8"); 
 		
 	}
 	response.sendRedirect("responseAge_07.jsp?age=" +age + "&adult=" + adult +"&possible=" + possible);
