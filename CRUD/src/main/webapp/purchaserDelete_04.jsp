@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>입력결과</title>
+<title>Insert title here</title>
 </head>
 <body>
 
-	<h3>입력결과</h3>
-	${param.result} 
-
-
-	<%  //$는 setAttibute때만 사용 가능 but param을 넣어주면 가능  %>
+	사용자 ID : <%=session.getAttribute("USERID") %> <br>
+	<br><br>
+	상기의 정보가 삭제 되었습니다. 감사합니다.
 	
+	
+
 </body>
 </html>
